@@ -1,0 +1,38 @@
+.navbar{
+    position: fixed;
+    background-color: white;
+    z-index: 99999;
+    top: 0px;
+    width: 100vw;
+    height: 80px;
+    border-bottom: 1px solid #1b0760;
+    display: flex;
+    
+}
+
+.left{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+}
+
+.left img{
+    height: 80px;
+}
+
+.right{
+    flex: 9;
+    text-align: right;
+    padding-right: 160px;
+    color: black;
+    font-weight: 400;
+}
+
+.right span{
+    margin-right: 55px;         
+    line-height: 80px; 
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 21px;
+}
