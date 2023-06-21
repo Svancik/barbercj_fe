@@ -1,0 +1,117 @@
+.slider{
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top:80px;
+
+}
+   
+
+.slider .container{
+    width: 500vw;
+    height: 100%;
+    display: flex;
+    transition: all 1s ease;
+}       
+
+.slider img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+    
+.slider .icons{    
+        width: fit-content;
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+        margin: auto;
+        gap: 10px;    
+        z-index: 999;
+        color: #f04c4c;   
+}
+   
+
+.icon{
+   width: 50px;
+   height: 50px;
+   border: 1px solid white;
+   border-radius: 10px;
+   background: #f04c4cac;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;   
+   transition: all 0.5s;
+}
+.icon:hover{
+   background-color: #f04c4c;
+}                   
+
+/*
+@media screen and (max-width: 1600px) {
+    .slider{
+        height: 50vh;
+        width: 100vw;
+        position: relative;
+        margin-bottom: 50px;
+        margin-top:80px;
+       
+    
+        .container{
+            height: 100%;
+            display: flex;
+            transition: all 1s ease;
+            
+    
+            img{
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    
+        .icons{    
+            width: fit-content;
+            display: flex;
+            position: absolute;
+            left: 0;
+            right: 0;
+        
+            margin: auto;
+            gap: 10px;    
+            z-index: 999;
+            color: #f04c4c;   
+       
+    
+            .icon{
+                width: 50px;
+                height: 50px;
+                border: 1px solid white;
+                border-radius: 10px;
+                background: #f04c4cac;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;   
+                transition: all 0.5s;
+    
+                &:hover{
+                    background-color: #f04c4c;
+                }                   
+        
+            }
+        }
+    }
+}
+*/
